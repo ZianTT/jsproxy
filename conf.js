@@ -12,7 +12,7 @@ jsproxy_config({
 
   // 节点配置
   node_map: {
-    'demo-hk': {
+    /*'demo-hk': {
       label: '演示服务-香港节点',
       lines: {
         // 主机:权重
@@ -25,7 +25,7 @@ jsproxy_config({
       lines: {
         'node-aliyun-sg.etherdream.com:8443': 1,
       },
-    },
+    },*/
     'mysite': {
       label: '当前站点',
       lines: {
@@ -79,7 +79,7 @@ jsproxy_config({
   /**
    * 自定义注入页面的 HTML
    */
-  inject_html: '<!-- custom html -->',
+  inject_html: '<!-- custom html Powered by ZianTT-->',
 
   /**
    * URL 自定义处理（设计中）

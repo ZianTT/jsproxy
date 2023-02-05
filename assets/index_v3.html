@@ -1,7 +1,7 @@
 <!doctype html>
 <html>
 <head>
-  <title>Page Sandbox</title>
+  <title>Web Proxy</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0">
   <base target="_blank">
@@ -44,7 +44,7 @@
 <body>
   <div class="mdui-container">
   <div class="mdui-toolbar mdui-color-theme">
-    <span class="mdui-typo-title">CDN By ZianTT</span>
+    <span class="mdui-typo-title">Web Proxy</span>
     <div class="mdui-toolbar-spacer"></div>
     <a href="javascript:location.reload();" class="mdui-btn mdui-btn-icon"><i class="mdui-icon material-icons">refresh</i></a>
   </div>
@@ -54,10 +54,6 @@
   </div>
   <div class="mdui-col">
     <button class="mdui-btn mdui-btn-block mdui-color-theme-accent mdui-ripple" id="btnGo">Go</button>
-  </div>  
-  <div class="box">
-    <span>切换线路:</span>
-    <select class="mdui-select" id="selNode"></select>
   </div>
   <div class="box" id="list">
   </div>
@@ -135,17 +131,7 @@
     }
 
     const SITE_LIST = [
-      ['google', ''],
-      ['youtube', ''],
-      ['twitter', 'twitter.com/google'],
-      ['flickr', ''],
-      ['quora', 'www.quora.com/topic/JavaScript-programming-language'],
-      ['twitch', 'www.twitch.tv/'],
-      ['reddit', ''],
-      ['wiki', 'zh.wikipedia.org/'],
-      ['gist', 'gist.github.com/'],
-      ['facebook', 'facebook.com/Google/'],
-      ['blogger', ''],
+      ['google', 'google.com']
     ]
 
     function showIcons() {
